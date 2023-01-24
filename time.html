@@ -1,215 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styletime.css" />
-    <script src="jquery-3.6.3.js"></script>
-    <script>
-      $(function () {
-        $("#includedContent").load("pandas.html");
-      });
-    </script>
-    <title>time indicator</title>
-  </head>
 
-  <body>
-    <header>
-      <nav class="header">
-        <div class="title">
-          <h1>painel de indicadores</h1>
-          <p>indicador de tempo</p>
-        </div>
-        <ul class="header-menu">
-          <li><a href="#">ir para tela 2</a></li>
-          <li>
-            <label for="begin">inicio: </label>
-            <input type="date" name="begin" id="begin" />
-          </li>
-          <li>
-            <label for="end">fim: </label>
-            <input type="date" name="end" id="end" />
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <section class="q1">
-      <div class="panel-1">
-        <div class="box-1">
-          <h2>1.009.800</h2>
-          <p>total de materias recebidas</p>
-        </div>
-        <div class="box-2">
-          <h2>1.009.800</h2>
-          <p>materias publicadas</p>
-        </div>
-        <div class="box-3">
-          <h2>0</h2>
-          <p>materias nao publicadas</p>
-        </div>
-        <div class="box-4">
-          <h2>24,82</h2>
-          <p>tempo medio de publicaçao (h)</p>
-        </div>
-        <div class="box-5">
-          <h2>0,00</h2>
-          <p>tempo medio de devoluçao (h)</p>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styletime.css" />
+  <script src="jquery-3.6.3.js"></script>
+  <script>
+    $(function () {
+      $("#includedContent").load("pandas.html");
+    });
+  </script>
+  <title>time indicator</title>
+</head>
+
+<body>
+  <header>
+    <nav class="header">
+      <div class="title">
+        <h1>painel de indicadoooooooooores</h1>
+        <p>indicador de tempo</p>
       </div>
-      <div class="panel-2" id="includedContent"></div>
-      <div class="panel-3">
-        <table border="1" class="dataframe">
-          <thead>
-            <tr style="text-align: center">
-              <th></th>
-              <th>player</th>
-              <th>total_points</th>
-              <th>position</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th>0</th>
-              <td class="players">LeBron James</td>
-              <td>7631</td>
-              <td>SF/PF</td>
-            </tr>
-            <tr>
-              <th>1</th>
-              <td class="players">Michael Jordan</td>
-              <td>5987</td>
-              <td>SG/SF</td>
-            </tr>
-            <tr>
-              <th>2</th>
-              <td class="players">Kareem Abdul-Jabbar</td>
-              <td>5762</td>
-              <td>C</td>
-            </tr>
-            <tr>
-              <th>3</th>
-              <td class="players">Kobe Bryant</td>
-              <td>5640</td>
-              <td>SG/SF</td>
-            </tr>
-            <tr>
-              <th>4</th>
-              <td class="players">Shaquille O'Neal</td>
-              <td>5250</td>
-              <td>C</td>
-            </tr>
-            <tr>
-              <th>5</th>
-              <td class="players">Tim Duncan</td>
-              <td>5172</td>
-              <td>PF/C</td>
-            </tr>
-          </tbody>
-        </table>
+      <ul class="header-menu">
+        <li><a href="#">ir para tela 2</a></li>
+        <li>
+          <label for="begin">inicio: </label>
+          <input type="date" name="begin" id="begin" />
+        </li>
+        <li>
+          <label for="end">fim: </label>
+          <input type="date" name="end" id="end" />
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <section class="q1">
+    <div class="panel-1">
+      <div class="box-1">
+        <h2>1.009.800</h2>
+        <p>total de materias recebidas</p>
       </div>
-    </section>
-    <section class="q2">
-      <div class="panel-4">
-        <table border="1" class="dataframe">
-          <thead>
-            <tr style="text-align: center">
-              <th></th>
-              <th>player</th>
-              <th>total_points</th>
-              <th>position</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th>0</th>
-              <td class="players">LeBron James</td>
-              <td>7631</td>
-              <td>SF/PF</td>
-            </tr>
-            <tr>
-              <th>1</th>
-              <td class="players">Michael Jordan</td>
-              <td>5987</td>
-              <td>SG/SF</td>
-            </tr>
-            <tr>
-              <th>2</th>
-              <td class="players">Kareem Abdul-Jabbar</td>
-              <td>5762</td>
-              <td>C</td>
-            </tr>
-            <tr>
-              <th>3</th>
-              <td class="players">Kobe Bryant</td>
-              <td>5640</td>
-              <td>SG/SF</td>
-            </tr>
-            <tr>
-              <th>4</th>
-              <td class="players">Shaquille O'Neal</td>
-              <td>5250</td>
-              <td>C</td>
-            </tr>
-            <tr>
-              <th>5</th>
-              <td class="players">Tim Duncan</td>
-              <td>5172</td>
-              <td>PF/C</td>
-            </tr>
-          </tbody>
-        </table>
+      <div class="box-2">
+        <h2>1.009.800</h2>
+        <p>materias publicadas</p>
       </div>
-      <div class="panel-5">
-        <table border="1" class="dataframe">
-          <thead>
-            <tr style="text-align: center">
-              <th></th>
-              <th>player</th>
-              <th>total_points</th>
-              <th>position</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th>0</th>
-              <td class="players">LeBron James</td>
-              <td>7631</td>
-              <td>SF/PF</td>
-            </tr>
-            <tr>
-              <th>1</th>
-              <td class="players">Michael Jordan</td>
-              <td>5987</td>
-              <td>SG/SF</td>
-            </tr>
-            <tr>
-              <th>2</th>
-              <td class="players">Kareem Abdul-Jabbar</td>
-              <td>5762</td>
-              <td>C</td>
-            </tr>
-            <tr>
-              <th>3</th>
-              <td class="players">Kobe Bryant</td>
-              <td>5640</td>
-              <td>SG/SF</td>
-            </tr>
-            <tr>
-              <th>4</th>
-              <td class="players">Shaquille O'Neal</td>
-              <td>5250</td>
-              <td>C</td>
-            </tr>
-            <tr>
-              <th>5</th>
-              <td class="players">Tim Duncan</td>
-              <td>5172</td>
-              <td>PF/C</td>
-            </tr>
-          </tbody>
-        </table>
+      <div class="box-3">
+        <h2>0</h2>
+        <p>materias nao publicadas</p>
       </div>
-    </section>
-  </body>
+      <div class="box-4">
+        <h2>24,82</h2>
+        <p>tempo medio de publicaçao (h)</p>
+      </div>
+      <div class="box-5">
+        <h2>0,00</h2>
+        <p>tempo medio de devoluçao (h)</p>
+      </div>
+    </div>
+    <div class="panel-2" id="includedContent"></div>
+    <div class="panel-3">
+      <table border="1" class="dataframe">
+        <thead>
+          <tr style="text-align: center">
+            <th></th>
+            <th>player</th>
+            <th>total_points</th>
+            <th>position</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>0</th>
+            <td class="players">LeBron James</td>
+            <td>7631</td>
+            <td>SF/PF</td>
+          </tr>
+          <tr>
+            <th>1</th>
+            <td class="players">Michael Jordan</td>
+            <td>5987</td>
+            <td>SG/SF</td>
+          </tr>
+          <tr>
+            <th>2</th>
+            <td class="players">Kareem Abdul-Jabbar</td>
+            <td>5762</td>
+            <td>C</td>
+          </tr>
+          <tr>
+            <th>3</th>
+            <td class="players">Kobe Bryant</td>
+            <td>5640</td>
+            <td>SG/SF</td>
+          </tr>
+          <tr>
+            <th>4</th>
+            <td class="players">Shaquille O'Neal</td>
+            <td>5250</td>
+            <td>C</td>
+          </tr>
+          <tr>
+            <th>5</th>
+            <td class="players">Tim Duncan</td>
+            <td>5172</td>
+            <td>PF/C</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="q2">
+    <div class="panel-4">
+      <table border="1" class="dataframe">
+        <thead>
+          <tr style="text-align: center">
+            <th></th>
+            <th>player</th>
+            <th>total_points</th>
+            <th>position</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>0</th>
+            <td class="players">LeBron James</td>
+            <td>7631</td>
+            <td>SF/PF</td>
+          </tr>
+          <tr>
+            <th>1</th>
+            <td class="players">Michael Jordan</td>
+            <td>5987</td>
+            <td>SG/SF</td>
+          </tr>
+          <tr>
+            <th>2</th>
+            <td class="players">Kareem Abdul-Jabbar</td>
+            <td>5762</td>
+            <td>C</td>
+          </tr>
+          <tr>
+            <th>3</th>
+            <td class="players">Kobe Bryant</td>
+            <td>5640</td>
+            <td>SG/SF</td>
+          </tr>
+          <tr>
+            <th>4</th>
+            <td class="players">Shaquille O'Neal</td>
+            <td>5250</td>
+            <td>C</td>
+          </tr>
+          <tr>
+            <th>5</th>
+            <td class="players">Tim Duncan</td>
+            <td>5172</td>
+            <td>PF/C</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="panel-5">
+      <table border="1" class="dataframe">
+        <thead>
+          <tr style="text-align: center">
+            <th></th>
+            <th>player</th>
+            <th>total_points</th>
+            <th>position</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>0</th>
+            <td class="players">LeBron James</td>
+            <td>7631</td>
+            <td>SF/PF</td>
+          </tr>
+          <tr>
+            <th>1</th>
+            <td class="players">Michael Jordan</td>
+            <td>5987</td>
+            <td>SG/SF</td>
+          </tr>
+          <tr>
+            <th>2</th>
+            <td class="players">Kareem Abdul-Jabbar</td>
+            <td>5762</td>
+            <td>C</td>
+          </tr>
+          <tr>
+            <th>3</th>
+            <td class="players">Kobe Bryant</td>
+            <td>5640</td>
+            <td>SG/SF</td>
+          </tr>
+          <tr>
+            <th>4</th>
+            <td class="players">Shaquille O'Neal</td>
+            <td>5250</td>
+            <td>C</td>
+          </tr>
+          <tr>
+            <th>5</th>
+            <td class="players">Tim Duncan</td>
+            <td>5172</td>
+            <td>PF/C</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+</body>
+
 </html>
